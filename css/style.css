@@ -1827,20 +1827,20 @@ li {
 .login-box h2 {
   font-size: 30px;
   font-weight: 700;
-  color: #ea580c;
+  color: #155DFC;
   margin-bottom: 20px;
 }
 
 .login-box .btn {
-  background-image: linear-gradient(to right, #e5560c, #c3410c);
+  background-image: #EEF4FF;
   outline: none;
   border: none;
 }
 
 .login-box .btn:hover {
-  box-shadow: 0 5px 10px color-mix(#ea580c 50%, #fff7ed 50%) !important;
+  box-shadow: 0 5px 10px color-mix(#a8c6ff 50%, #9dcfff 50%) !important;
 }
 
 .login-box label {
-  color: #7b4930 !important;
+  color: #99aac8 !important;
 }

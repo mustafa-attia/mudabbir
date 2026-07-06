@@ -167,10 +167,7 @@
               </div>
               <div class="noti-box">
                 <span class="num-box">2</span>
-                <img
-                  src="../images/bell-regular-full.png"
-                  alt="bell icon"
-                />
+                <img src="../images/bell-regular-full.png" alt="bell icon" />
               </div>
 
               <div class="info-box">
@@ -1062,5 +1059,11 @@
       </div>
       <!-- end container -->
     </div>
+
+    <script>
+      if (sessionStorage.getItem("adminLoggedIn") !== "true") {
+        window.location.href = "../index.html";
+      }
+    </script>
   </body>
 </html>
